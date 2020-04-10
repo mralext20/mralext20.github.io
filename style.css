@@ -1,0 +1,20 @@
+
+#home {
+  height: 700px;
+  background-image: url(/img/landscape.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  background-position: center;
+}
+
+#name {
+  color: #ff8800;
+  position: absolute;
+  bottom: 10rem;
+  left: 3rem;
+  font-size: 321%;
+  max-width: calc(100% - 3rem);
+  text-shadow: 0px 3px 8px black;
+
+}
