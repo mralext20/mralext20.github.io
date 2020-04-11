@@ -16,5 +16,9 @@
   font-size: 321%;
   max-width: calc(100% - 3rem);
   text-shadow: 0px 3px 8px black;
-
+}
+.icons {
+  text-shadow: 0px 0px 1px black;
+  color: black;
+  font-size: 3rem !important;
 }
