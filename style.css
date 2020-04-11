@@ -1,4 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
+body {
+  font-family: 'Roboto Mono', monospace;;
+}
 #home {
   height: 700px;
   background-image: url(/img/landscape.jpg);
@@ -9,7 +13,7 @@
 }
 
 #name {
-  color: #ff8800;
+  color: white;
   position: absolute;
   bottom: 10rem;
   left: 3rem;
@@ -18,7 +22,18 @@
   text-shadow: 0px 3px 8px black;
 }
 .icons {
-  text-shadow: 0px 0px 1px black;
   color: black;
   font-size: 3rem !important;
+}
+
+#portrait{
+  object-fit: cover;
+border-radius: 50%;
+width: 12rem;
+margin-right: 2rem;
+}
+
+#about-me {
+  max-width: 62rem;
+  margin: 8rem auto !important;
 }
