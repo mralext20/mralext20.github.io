@@ -35,5 +35,8 @@ margin-right: 2rem;
 
 #about-me {
   max-width: 62rem;
+}
+
+.row {
   margin: 8rem auto !important;
 }
