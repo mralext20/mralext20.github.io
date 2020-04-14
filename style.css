@@ -40,3 +40,15 @@ margin-right: 2rem;
 .spaced {
   margin: 8rem auto !important;
 }
+
+@media screen and (min-width: 1100px) {
+  .card {
+    max-width: 40%;
+  }
+}
+
+@media screen and (max-width: 1100px) {
+  .card {
+    width: 100%;
+  }
+}
